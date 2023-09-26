@@ -1,0 +1,818 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+nav {
+    height: 80px;
+    width: 100%;
+    background-color:whitesmoke;
+    top: 0%;  
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+.logo {
+    font-family: Viner Hand ITC;
+    font-weight: bold;
+    font-size: 50px;
+}
+
+label.logo a {
+    color: rgb(60, 6, 6);
+    margin: 0% auto;
+}
+
+li {
+    list-style: none;
+}
+
+li a {
+    color: black;
+    font-weight: bold;
+}
+li a:hover , a.active{
+    color: orange;
+}
+nav ul{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap:100px;
+    
+}
+.checkbtn{
+    font-size: 30px;
+    color: black;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    visibility: hidden;   
+}
+#check{
+display: none; 
+}
+/* div-container */
+.div-container{
+    height: 500px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.div-container img{
+    width: 100%;
+    height: 100%;
+}
+.div-container h1{
+    position: absolute;
+    color: white;
+    font-weight: bold;
+    font-size: 50px;
+}
+
+/* menu-option */
+#menu{
+    height: 350px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:30px
+}
+.para{
+    height: max-content;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    top: 10%;
+    gap:20px;
+    font-family: Calibri;
+    font-size: 20px;
+    text-align: center;           
+}
+.para h1{
+    font-family:Bradley Hand ITC ;
+}
+
+.menu-nav ul li{
+    display: inline;
+    padding: 0px 20px;
+}
+.menu-nav ul a:hover , a.active{
+  color: brown;
+    border-bottom: 2px solid orange;
+}
+.outer{
+    height: 600px;
+    width: 100%;
+    display: flex;
+    gap:20px;
+   
+}
+.outer1{
+    width: 50%;
+    height: 100%;
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+    gap:30px; 
+}
+.outer1 .boxx1{
+    width: 80%;
+    height: 150px;
+    display: flex;
+}
+.outer1 .boxx2{
+    width: 80%;
+    height: 150px;
+    display: flex;
+}
+.outer1 .boxx3{
+    width: 80%;
+    height: 150px;
+    display: flex;
+}
+.boxx1 img{
+    width: 30%;
+    height: 100%;
+}
+.boxx1 h2{
+    font-family: Bradley Hand ITC;
+    padding: 10px;
+    font-size: 25px;
+}
+.boxx1 p{
+    font-family: Calibri;
+    font-size: 15px;
+}
+.boxx1 h3{
+    font-weight: bold;
+    margin-top: 30px;
+    font-size: 20px;
+    color: red;
+
+}
+.boxx2 img{
+    width: 30%;
+    height: 100%;
+}
+.boxx2 h2{
+    font-family: Bradley Hand ITC;
+    padding: 10px;
+    font-size: 25px;
+}
+.boxx2 p{
+    font-family: Calibri;
+    font-size: 15px;
+}
+.boxx2 h3{
+    font-weight: bold;
+    margin-top: 30px;
+    font-size: 20px;
+    color: red;
+
+}
+.boxx3 img{
+    width: 30%;
+    height: 100%;
+}
+.boxx3 h2{
+    font-family: Bradley Hand ITC;
+    padding: 10px;
+    font-size: 25px;
+}
+.boxx3 p{
+    font-family: Calibri;
+    font-size: 15px;
+}
+.boxx3 h3{
+    font-weight: bold;
+    margin-top: 30px;
+    font-size: 20px;
+    color: red;
+
+}
+
+.outer2{
+    width: 50%;
+    height: 100%;
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+    gap:30px; 
+}
+.outer2 .boxxx1{
+    width: 80%;
+    height: 150px;
+    display: flex;
+}
+.outer2 .boxxx2{
+    width: 80%;
+    height: 150px;
+    display: flex;
+}
+.outer2 .boxxx3{
+    width: 80%;
+    height: 150px;
+    display: flex;
+}
+
+.boxxx1 img{
+    width: 30%;
+    height: 100%;
+}
+.boxxx1 h2{
+    font-family: Bradley Hand ITC;
+    padding: 10px;
+    font-size: 25px;
+}
+.boxxx1 p{
+    font-family: Calibri;
+    font-size: 15px;
+}
+.boxxx1 h3{
+    font-weight: bold;
+    margin-top: 30px;
+    font-size: 20px;
+    color: red;
+}
+.boxxx2 img{
+    width: 30%;
+    height: 100%;
+}
+.boxxx2 h2{
+    font-family: Bradley Hand ITC;
+    padding: 10px;
+    font-size: 25px;
+}
+.boxxx2 p{
+    font-family: Calibri;
+    font-size: 15px;
+}
+.boxxx2 h3{
+    font-weight: bold;
+    margin-top: 30px;
+    font-size: 20px;
+    color: red;
+}
+.boxxx3 img{
+    width: 30%;
+    height: 100%;
+}
+.boxxx3 h2{
+    font-family: Bradley Hand ITC;
+    padding: 10px;
+    font-size: 25px;
+}
+.boxxx3 p{
+    font-family: Calibri;
+    font-size: 15px;
+}
+.boxxx3 h3{
+    font-weight: bold;
+    margin-top: 30px;
+    font-size: 20px;
+    color: red;
+}
+
+/* featured-dishes */
+.para1{
+    height: max-content;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    gap:30px
+}
+.line{
+    height: max-content;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    top: 10%;
+    gap:20px;
+    font-family: Calibri;
+    font-size: 20px;
+    text-align: center;           
+}
+.line h1{
+    font-family:Bradley Hand ITC ;
+}
+.slider{
+  height: 400px;
+  width:100%;
+  white-space: nowrap;
+  overflow: auto;
+   overflow-y: hidden;
+}
+
+.card-container {
+            height: 500px;
+            width: 100%;
+            display: flex;
+            gap: 10px;
+            justify-content: center;
+            align-items: center;    
+        }
+
+.card1 {
+            height: 300px;
+            width: 280px;
+            margin: 0px 0px 0px 30px;
+            overflow: hidden;
+        }
+
+        .text1 p {
+            font-size: 15px;
+            text-decoration: none;
+            font-family: Calibri;
+            color: rgb(16, 15, 15);
+            margin-top: 10px; 
+            font-weight: BOLD; 
+        }
+        .text1 h1{
+            margin-top: 10px;
+            font-family: Bradley Hand ITC;
+            font-size: 25px;
+           
+        }
+
+        .card1 img {
+            height: 50%;
+            width: 100%;
+            transition: all 0.5s ease-in;
+
+        }
+
+        .card1 img:hover {
+            transform: scale(1.2);
+
+        }
+
+        /* reservation */
+        .reservation{
+            height: 600px;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center; 
+            align-items: center;
+            background-color: #e8ebeb;  
+            gap: 30px;
+        }
+        .word{
+            height: 100px;
+            width: 40%;
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            padding: 10px;
+            gap: 5px; 
+        }
+        .word h1{
+            font-family: Bradley Hand ITC;
+            font-weight: bold;
+        }
+        .word p{
+            font-family: Calibri;
+            
+        }
+
+        .input-div{
+            display: flex;
+            
+            width: 80%;
+            height: max-content;
+            justify-content: center;
+            text-align: center;
+            align-items: center;
+            gap: 20px;
+           
+        }
+
+        .input-div1{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            text-align: center;
+            align-items:end;
+            height: max-content;
+            width: 40%;
+            gap:20px;
+        }
+        .input-div2{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            text-align: center;
+            align-items: start;
+            height: max-content;
+            width: 40%;
+            gap: 20px;
+        }
+
+         .input-div1 label input{
+            height: 50px;
+            width: 300px;
+            padding: 10px 20px;
+            border: 0px;
+         }
+         .input-div2 select{
+            height: 50px;
+            width: 300px;
+            padding: 10px 20px;
+            border: 0px;
+         }
+
+         .input-div2 label input{
+            height: 50px;
+            width: 300px;
+            padding: 10px 20px;
+            border: 0px;
+         }
+
+         label button{
+            width: 200px;
+            height: 60px;
+            margin-top: 20px;
+            border-color: orange;
+         }
+
+         /* footer */
+         .footer{
+            height: 400px;
+            width: 100%;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            gap: 30px;
+            background-color: rgb(2, 1, 14);
+            color: gray;
+           }
+           .footer1{
+            height: 40%;
+            width: 30%;
+            display: flex;
+            flex-direction: column;
+            gap:20px;
+            padding: 10px 10px;
+           }
+           .footer2{
+            height: 40%;
+            width: 30%;
+            display: flex;
+            flex-direction: column;
+            gap:20px;
+            padding: 10px 10px;
+           }
+           .footer3{
+            height: 40%;
+            width: 30%;
+            display: flex;
+            flex-direction: column;
+            gap:20px;
+            padding: 10px 10px;
+           }
+    
+           .footer1 p, .footer2 p, .footer3 p{
+            color: orange;
+           }
+           .footer2 h2{
+            color: orange;
+            font-size: 20px;
+           }
+           .footer2 .fa-instagram{
+            color: gray;
+           }
+           .rights span{
+            color: orange;
+           }
+
+
+
+
+
+
+           @media(max-width:1300px){
+            nav{
+                height: max-content;
+                background-color: #fff;
+                justify-content: space-between;
+                width: 100%;  
+            }
+            .logo{
+                visibility: visible;
+                top:0%;
+                position: absolute;
+                left: 50px;
+            }
+            nav ul{
+                flex-direction: column; 
+                background-color: rgb(214, 209, 209);
+                justify-content: center;
+                align-items: first baseline;
+                gap:30px;
+                padding-top: 100px;
+                width: 100%;
+                padding-left: 40px;
+                visibility: hidden;
+                transition: all .5s;       
+            }
+            nav ul li{
+                display: none;
+            }
+            
+            .checkbtn{
+                position: absolute;
+                top: 0;
+                visibility: visible;
+                right:100px;
+            }
+            #check:checked~ul{
+                visibility: visible;
+                
+            }
+            #check:checked~ul li{
+                display: block;
+            }
+        }
+
+        @media(max-width:600px){
+            /* div-container */
+        .div-container{
+        height: 400px;
+        width: 100%;
+        }
+
+        /* menu */
+        #menu{
+            height: 400px;
+            display: flex;
+            gap: 30px;
+        }
+        .para{
+            height: max-content;
+            width: 100%;
+            top: 10%;
+            gap:20px;
+            text-align: center;
+            margin-left: 3%;       
+        }
+        .para h1{
+            font-size: 35px;
+        }
+        .para p{
+            font-size: 19px;
+        }
+        .menu-nav ul li{
+            display: inline;
+            padding: 0px 10px;
+        }
+    
+        .outer{
+            height: max-content;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            gap:50px;
+            
+           
+        }
+        .outer1{
+            width: 100%;
+            height: 50%;
+            display: flex; 
+            flex-direction: column; 
+            align-items: center; 
+            gap:50px; 
+           
+            
+        }
+        .outer1 .boxx1{
+            width: 100%;
+            height: 200px;
+            display: flex;
+        }
+        .outer1 .boxx2{
+            width: 100%;
+            height: 200px;
+            display: flex;
+        }
+        .outer1 .boxx3{
+            width: 100%;
+            height: 200px;
+            display: flex;
+        }
+        .outer2{
+            width: 100%;
+            height: 50%;
+            display: flex; 
+            flex-direction: column; 
+            align-items: center; 
+            gap:50px; 
+            
+        }
+        .outer2 .boxxx1{
+            width: 100%;
+            height: 200px;
+            display: flex;
+        }
+        .outer2 .boxxx2{
+            width: 100%;
+            height: 200px;
+            display: flex;
+        }
+        .outer2 .boxxx3{
+            width: 100%;
+            height: 200px;
+            display: flex;
+        }
+        .line{
+            height: 300px;
+            width: 100%;
+        }
+        .card-container {
+            height: max-content;
+            width: 100%;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+           
+        }
+    
+    .card1 {
+            height: 300px;
+            width: 100%;
+            overflow: hidden;  
+        }
+    
+        .text1 p {
+            font-size: 15px;
+            text-decoration: none;
+            font-family: Calibri;
+            color: rgb(16, 15, 15);
+            margin-top: 10px; 
+            font-weight: BOLD; 
+        }
+        .text1 h1{
+            margin-top: 10px;
+            font-family: Bradley Hand ITC;
+            font-size: 25px;
+           
+        }
+    
+        .card1 img {
+            height: 50%;
+            width: 100%;
+            transition: all 0.5s ease-in;
+        }
+
+        /* reservation */
+
+    .reservation{
+        height: max-content;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center; 
+        align-items: center;
+        gap: 40px;
+        flex-wrap: wrap;
+    }
+    .word{
+        height: max-content;
+        width: 100%; 
+    }
+    .input-div{
+        display: flex;
+        width: 100%;
+        height: max-content;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .input-div1{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        align-items:center;
+        height: max-content;
+        width: 50%;
+        gap:20px;
+       
+    }
+    .input-div2{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        align-items: start;
+        height: max-content;
+        width: 50%;
+        gap: 20px;  
+    }
+
+     .input-div1 label input{
+        height: 50px;
+        width: 100%;
+        padding: 20px 10px;
+     }
+     .input-div2 select{
+        height: 50px;
+        width: 100%;
+        padding: 10px 20px;
+     }
+
+     .input-div2 label input{
+        height: 50px;
+        width: 100%;
+        padding: 10px 20px;
+     }
+
+     label button{
+        width: 200px;
+        height: 60px;
+        margin-top: 20px;
+        border-color: orange;
+        margin-bottom: 20%;
+     }
+
+      
+       /* footer */
+
+       .footer{
+        height: max-content;
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        background-color: rgb(2, 1, 14);
+        color: gray;
+       }
+       .footer1{
+        height: max-content;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap:20px;
+        padding: 10px 10px;
+       }
+       .footer2{
+        height: max-content;
+        width: 55%;
+        display: flex;
+        flex-direction: column;
+        gap:20px;
+        padding: 10px 10px;
+       }
+       .footer3{
+        height: 45%;
+        width: 30%;
+        display: flex;
+        flex-direction: column;
+        gap:20px;
+        padding: 10px 10px;
+       }
+
+       .footer1 p, .footer2 p, .footer3 p{
+        color: orange;
+       }
+       .footer2 h2{
+        color: orange;
+        font-size: 20px;
+       }
+       .footer2 .fa-instagram{
+        color: gray;
+       }
+       .rights span{
+        color: orange;
+       }
+       .rights{
+        padding: 10px 50px;
+        text-align: center;
+       }
+}
+
+
+
+        
+    
+        
+    
